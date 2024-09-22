@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>التصميم</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 class="mainDiv">Product List</h1>
+
+    <div class="dropdown" >
+        <label for="categoryFilter">Filter by Category:</label>
+        <select onchange="filterProducts(value)">
+            <option value="all">All</option>
+            <option value="Electronics">Electronics</option>
+            <option value="Clothing">Clothing</option>
+            <option value="Books">Books</option>
+        </select>
+    </div>
+
+    <div class="displayProduct">
+        
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
